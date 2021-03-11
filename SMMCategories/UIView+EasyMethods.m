@@ -1,8 +1,9 @@
 //
 //  UIView+EasyMethods.m
-//  ViewDemos
+//  SMMCategories
 //
 //  Created by 尚雷勋 on 2021/1/22.
+//  Copyright © 2021 GiANTLEAP. All rights reserved.
 //
 
 #import "UIView+EasyMethods.h"

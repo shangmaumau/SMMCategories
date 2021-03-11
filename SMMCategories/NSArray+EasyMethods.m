@@ -1,9 +1,9 @@
 //
 //  NSArray+EasyMethods.m
-//  QMGame
+//  SMMCategories
 //
-//  Created by Michael on 2021/1/11.
-//  Copyright © 2021 xiaonihy. All rights reserved.
+//  Created by 尚雷勋 on 2021/1/11.
+//  Copyright © 2021 GiANTLEAP. All rights reserved.
 //
 
 #import "NSArray+EasyMethods.h"

@@ -1,8 +1,9 @@
 //
 //  UIView+ViewSnap.m
-//  QMGame
+//  SMMCategories
 //
-//  Created by Michael on 2021/1/6.
+//  Created by 尚雷勋 on 2021/1/6.
+//  Copyright © 2021 GiANTLEAP. All rights reserved.
 //
 
 #import "UIView+ViewSnap.h"

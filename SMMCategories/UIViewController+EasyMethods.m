@@ -1,9 +1,9 @@
 //
 //  UIViewController+EasyMethods.m
-//  DFJY
+//  SMMCategories
 //
 //  Created by 尚雷勋 on 2021/3/6.
-//  Copyright © 2021 guangxihuancai. All rights reserved.
+//  Copyright © 2021 GiANTLEAP. All rights reserved.
 //
 
 #import "UIViewController+EasyMethods.h"

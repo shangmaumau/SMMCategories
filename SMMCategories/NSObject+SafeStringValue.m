@@ -1,9 +1,9 @@
 //
 //  NSObject+SafeStringValue.m
-//  SYJY
+//  SMMCategories
 //
 //  Created by 尚雷勋 on 2021/1/26.
-//  Copyright © 2021 guangxihuancai. All rights reserved.
+//  Copyright © 2021 GiANTLEAP. All rights reserved.
 //
 
 #import "NSObject+SafeStringValue.h"

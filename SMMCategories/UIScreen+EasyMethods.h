@@ -1,10 +1,10 @@
 //
 //  UIScreen+EasyMethods.h
-//  ViewDemos
+//  SMMCategories
 //
 //  Created by 尚雷勋 on 2021/1/20.
+//  Copyright © 2021 GiANTLEAP. All rights reserved.
 //
-
 #import <UIKit/UIKit.h>
 
 #define kUIPadding       (16.0)

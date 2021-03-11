@@ -1,9 +1,9 @@
 //
 //  UIImage+EasyMethods.h
-//  DFJY
+//  SMMCategories
 //
 //  Created by 尚雷勋 on 2021/3/2.
-//  Copyright © 2021 guangxihuancai. All rights reserved.
+//  Copyright © 2021 GiANTLEAP. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

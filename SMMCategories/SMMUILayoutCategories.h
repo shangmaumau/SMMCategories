@@ -1,8 +1,9 @@
 //
 //  SMMUILayoutCategories.h
-//  ViewDemos
+//  SMMCategories
 //
 //  Created by 尚雷勋 on 2021/1/24.
+//  Copyright © 2021 GiANTLEAP. All rights reserved.
 //
 
 #ifndef SMMUILayoutCategories_h

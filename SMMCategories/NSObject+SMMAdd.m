@@ -1,9 +1,9 @@
 //
 //  NSObject+SMMAdd.m
-//  SYJY
+//  SMMCategories
 //
 //  Created by 尚雷勋 on 2021/1/27.
-//  Copyright © 2021 guangxihuancai. All rights reserved.
+//  Copyright © 2021 GiANTLEAP. All rights reserved.
 //
 
 #import "NSObject+SMMAdd.h"
