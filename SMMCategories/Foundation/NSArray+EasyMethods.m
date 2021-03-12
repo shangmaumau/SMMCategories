@@ -10,7 +10,7 @@
 
 @implementation NSArray (EasyMethods)
 
-/// 另一个元素，只用于有两个元素的数组。
+/// 另一个元素，仅适用于有两个元素的数组。
 - (id)anotherObjectOf:(NSUInteger)index {
     
     if (self.count != 2) {
@@ -54,7 +54,7 @@
     return self[2];
 }
 
-/// 支持倒序取值。
+/// 特定索引的 object。支持倒序取值。
 - (id)smm_objectAtIndex:(NSInteger)index {
     
     NSUInteger realIndex = index;
@@ -62,7 +62,7 @@
     if (realIndex < 0) {
         realIndex = self.count + index;
     }
-    if (realIndex > self.count - 1) {
+    if (realIndex < 0 || realIndex > self.count - 1) {
         return nil;
     }
     

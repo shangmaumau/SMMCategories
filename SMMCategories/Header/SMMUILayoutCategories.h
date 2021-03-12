@@ -10,9 +10,10 @@
 #define SMMUILayoutCategories_h
 
 #import "SMMCGExtensions.h"
+#import "UIColor+EasyMethods.h"
 #import "UIImage+EasyMethods.h"
 #import "UIScreen+EasyMethods.h"
-#import "UIColor+EasyMethods.h"
 #import "UIView+EasyMethods.h"
+#import "UIViewController+EasyMethods.h"
 
 #endif /* SMMUILayoutCategories_h */

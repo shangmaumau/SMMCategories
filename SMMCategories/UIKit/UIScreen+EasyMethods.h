@@ -22,6 +22,9 @@ NS_ASSUME_NONNULL_BEGIN
 + (CGFloat)widthScale;
 + (CGFloat)heigthScale;
 
++ (CGFloat)topSafePadding;
++ (CGFloat)bottomSafePadding;
+
 @end
 
 NS_ASSUME_NONNULL_END
