@@ -18,6 +18,8 @@
     return [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0];
 }
 
+// MARK: - df 的颜色们
+
 + (UIColor *)doubleFishThemeColor {
     return [UIColor colorWith255R:32.0 g:13.0 b:86.0];
 }
@@ -32,6 +34,32 @@
 
 + (UIColor *)doubleFishTextGrayColor {
     return [UIColor colorWith255R:176.0 g:169.0 b:194.0];
+}
+
+// MARK: - by 的颜色们
+
++ (UIColor *)blueyanThemeColor {
+    return [UIColor colorWith255R:253.0 g:66.0 b:97.0];
+}
+
++ (UIColor *)blueyanTitleColor {
+    return [UIColor colorWith255R:242.0 g:68.0 b:35.0];
+}
+
++ (UIColor *)blueyanSubtitleColor {
+    return [UIColor colorWith255R:253.0 g:66.0 b:97.0];
+}
+
++ (UIColor *)blueyanTextNormalColor {
+    return [UIColor colorWith255R:241.0 g:41.0 b:48.0];
+}
+
++ (UIColor *)blueyanBackgroundColor {
+    return [UIColor colorWith255R:206.0 g:3.0 b:98.0];
+}
+
++ (UIColor *)blueyanTintColor {
+    return [UIColor colorWith255R:253.0 g:66.0 b:97.0];
 }
 
 CGFloat jk_colorComponentFrom(NSString *string, NSUInteger start, NSUInteger length) {

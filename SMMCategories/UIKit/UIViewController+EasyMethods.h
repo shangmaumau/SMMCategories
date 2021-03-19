@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIViewController (EasyMethods)
 
-+ (__kindof UIViewController *)current;
++ (__kindof UIViewController * _Nullable)current;
 
 @end
 

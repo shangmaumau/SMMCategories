@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (nullable ObjectType)anotherObjectOf:(NSUInteger)index;
 
-- (nullable ObjectType)nextObjectOf:(NSUInteger)index;
+- (nullable ObjectType)nextObjectOf:(NSInteger)index;
 
 - (nullable ObjectType)secondObject;
 

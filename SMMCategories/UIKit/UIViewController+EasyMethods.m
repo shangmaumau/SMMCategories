@@ -10,7 +10,7 @@
 
 @implementation UIViewController (EasyMethods)
 
-+ (__kindof UIViewController *)currentOfViewController:(__kindof UIViewController *)rootViewCtrl {
++ (__kindof UIViewController * _Nullable)currentOfViewController:(__kindof UIViewController *)rootViewCtrl {
     
     __kindof UIViewController *wewantRootCtrl = rootViewCtrl;
     __kindof UIViewController *wewantViewCtrl = nil;
@@ -33,9 +33,10 @@
 + (__kindof UIViewController *)current {
     
     __kindof UIViewController *wewantViewCtrl = nil;
+    __kindof UIViewController *rootViewCtrl = UIApplication.sharedApplication.windows.lastObject.rootViewController;
     
-    if (UIApplication.sharedApplication.windows.lastObject.rootViewController != nil) {
-        wewantViewCtrl = [self currentOfViewController:UIApplication.sharedApplication.windows.lastObject.rootViewController];
+    if (rootViewCtrl != nil) {
+        wewantViewCtrl = [self currentOfViewController:rootViewCtrl];
     }
     
     return wewantViewCtrl;

@@ -25,9 +25,9 @@
 }
 
 /// 下一个元素，如果 index 为非负，则加 1，如果 index 为负，则减 1。
-- (id)nextObjectOf:(NSUInteger)index {
+- (id)nextObjectOf:(NSInteger)index {
     
-    NSInteger targetIndex = (NSInteger)index;
+    NSInteger targetIndex = index;
     
     if (index < 0) {
         targetIndex--;

@@ -22,6 +22,13 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIColor *)doubleFishSubtitleColor;
 + (UIColor *)doubleFishTextGrayColor;
 
++ (UIColor *)blueyanThemeColor;
++ (UIColor *)blueyanBackgroundColor;
++ (UIColor *)blueyanTitleColor;
++ (UIColor *)blueyanSubtitleColor;
++ (UIColor *)blueyanTintColor;
++ (UIColor *)blueyanTextNormalColor;
+
 + (UIColor *)colorWithHexString:(NSString *)hexString;
 
 @end
