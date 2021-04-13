@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-#define UIImageNamed(__name__) [UIImage imageNamed:__name__]
-
 NS_ASSUME_NONNULL_BEGIN
+
+UIImage * _Nullable UIImageNamed(NSString * imgName);
 
 @interface UIImage (EasyMethods)
 

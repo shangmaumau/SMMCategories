@@ -8,6 +8,32 @@
 
 #import "UIScreen+EasyMethods.h"
 
+CGRect SMMBoundingRect(NSString * _Nonnull text, UIFont * _Nonnull font) {
+    return [text boundingRectWithSize:CGSizeMake(CGFLOAT_MAX, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{ NSFontAttributeName: font } context:nil];
+}
+
+CGFloat SMMBoundingWidth(NSString * _Nonnull text, UIFont * _Nonnull font) {
+    CGRect rect = SMMBoundingRect(text, font);
+    return ceil(CGRectGetWidth(rect));
+}
+
+CGFloat SMMScreenWidth(void) {
+    return CGRectGetWidth(UIScreen.mainScreen.bounds);
+}
+
+CGFloat SMMScreenHeight(void) {
+    return CGRectGetHeight(UIScreen.mainScreen.bounds);
+}
+
+CGRect SMMScreenFrame(void) {
+    return CGRectMake(0, 0, SMMScreenWidth(), SMMScreenHeight());
+}
+
+CGFloat SMMCeilLength(CGFloat length) {
+    return ceil(SMMScreenWidth() / 375.0 * length);
+}
+
+
 @implementation UIScreen (EasyMethods)
 
 /// 屏幕宽。

@@ -7,6 +7,10 @@
 //
 #import "UIImage+EasyMethods.h"
 
+UIImage * _Nullable UIImageNamed(NSString * _Nonnull imgName) {
+    return [UIImage imageNamed:imgName];
+}
+
 @implementation UIImage (EasyMethods)
 
 + (UIImage *)defaultAvatarOfSex:(NSUInteger)sex {

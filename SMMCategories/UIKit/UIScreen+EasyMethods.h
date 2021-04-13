@@ -14,6 +14,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+CGRect SMMBoundingRect(NSString * text, UIFont * font);
+CGFloat SMMBoundingWidth(NSString * text, UIFont * font);
+CGFloat SMMScreenWidth(void);
+CGFloat SMMScreenHeight(void);
+CGFloat SMMCeilLength(CGFloat length);
+CGRect SMMScreenFrame(void);
+
 @interface UIScreen (EasyMethods)
 
 + (CGFloat)width_c;
