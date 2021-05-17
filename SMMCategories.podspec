@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "SMMCategories"
-  spec.version      = "1.0.8"
+  spec.version      = "1.0.9"
   spec.summary      = "Some useful Categories for iPhoneOS development."
   spec.homepage     = "https://github.com/shangmaumau/SMMCategories"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
